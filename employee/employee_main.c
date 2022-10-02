@@ -78,18 +78,4 @@ int main()
 	printf("%p\n",e_array->emp); //Address before memory deallocation
 	e_array=deallocate(e_array);
 	printf("%p\n",e_array->emp);//Address after deallocation - ENDS UP WITH A SEGMENTATION FAULT
-	
-	
-
-
-
-	
-	
-	
-	
-
-	
-
-
-
 }
