@@ -16,7 +16,11 @@ struct _array_
 
 Array initialise_array(int size);
 Array insert_data(Array, int data);
+Array insert_at_beg(Array,int data);
+Array insert_at_pos(Array,int data,int pos);
+Array delete_element(Array,int);
 int search_element(Array, int element);
+int search_pos(Array, int element);
 
 int find_max(Array);
 int find_min_max(Array, int *, int *); // pass address of max and min

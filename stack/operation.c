@@ -11,7 +11,7 @@ Stack init(int size)
 
 void push(Stack *my_stack,int data)
 {
-	if(my_stack->op == my_stack->t_size)
+	if(my_stack->top == my_stack->t_size)
 		return my_stack;
 	my_stack->top++;
 	my_stack->arr[my_stack->top]=data;
