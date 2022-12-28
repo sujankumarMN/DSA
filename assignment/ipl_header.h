@@ -18,6 +18,7 @@ struct _team_
 	int budget;
 	int domestic_player_count;
 	int international_player_count;
+	int bench_strength; //Assumption: bench strength is limited to 10 players
 	Player *players; //list of players in the respective teams
 };
 typedef struct _team_ Team;
