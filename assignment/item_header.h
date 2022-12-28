@@ -1,5 +1,8 @@
 #define SUCCESS 1
 #define FAILURE 0
+#define UPI 10
+#define CARD 11
+#define CASH 12
 struct _item_
 {
 	int item_id;
@@ -26,6 +29,7 @@ struct _bill_
 	double item_unit_price;
 	int quantity;
 	double total_price;
+	int payment_mode; //UPI or CARD or CASH;
 };
 tupedef struct _bill_ Bill;
 

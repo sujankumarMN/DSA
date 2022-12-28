@@ -1,6 +1,8 @@
 #define SOLD 1
 #define UNSOLD -1
 #define IN_PROGRESS 2
+#define SUCCESS 10
+#define FAILURE 11
 struct _auction_
 {
 	int no_of_players;
